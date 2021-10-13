@@ -1,0 +1,9 @@
+@posts = http://localhost:3000/api/posts
+
+###
+GET {{posts}}?$filter=id eq 1
+
+###
+GET {{posts}}
+
+

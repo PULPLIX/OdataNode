@@ -1,0 +1,19 @@
+{
+  "name": "odata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mssql": "^7.2.1",
+    "nodemon": "^2.0.13",
+    "odata-v4-mssql": "^0.1.0"
+  }
+}
